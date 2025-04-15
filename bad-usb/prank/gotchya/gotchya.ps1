@@ -10,7 +10,7 @@ try {
         $Type::ShowWindowAsync($hwnd, 0)
     }
     else {
-        $Host.UI.RawUI.WindowTitle = 'hidden'
+        $Host.UI.RawUI.WindowTitle = 'hideme'
         $Proc = (Get-Process | Where-Object { $_.MainWindowTitle -eq 'hideme' })
         $hwnd = $Proc.MainWindowHandle
         $Type::ShowWindowAsync($hwnd, 0)

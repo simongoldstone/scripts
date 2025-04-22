@@ -1,2 +1,2 @@
 # scripts
-My Scripts
+Various scripts and tools for ethical hacking purposes only.
